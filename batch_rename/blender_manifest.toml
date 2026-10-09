@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+
+id = "batch_rename_cn"
+version = "1.7.7"
+name = "batch_rename"
+tagline = "按数据类型检查并批量翻译和重命名"
+maintainer = "WiKey"
+type = "add-on"
+tags = ["Node", "Material"]
+
+blender_version_min = "5.1.0"
+license = ["SPDX:GPL-3.0-or-later"]
+[permissions]
+files = "Read and save translation dictionaries and character filters"
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "tests/", "*.pyc"]

@@ -1,0 +1,13 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local Blender runtimes, backups and generated release packages
+/blender_validation_runtime/
+*.zip
+
+# Generated test reports and audit logs
+/batch_rename/tests/audit*.json
+/batch_rename/tests/coverage*.json
+/batch_rename/tests/audit*_logs/

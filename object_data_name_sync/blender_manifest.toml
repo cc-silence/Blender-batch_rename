@@ -1,0 +1,10 @@
+schema_version = "1.0.0"
+id = "object_data_name_sync"
+version = "1.0.0"
+name = "Object Data Name Sync"
+tagline = "Rename object data to match object names"
+maintainer = "CC"
+type = "add-on"
+tags = ["Object"]
+blender_version_min = "5.1.0"
+license = ["SPDX:GPL-3.0-or-later"]
